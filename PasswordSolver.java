@@ -41,5 +41,77 @@ public class PasswordSolver {
 				}
 			}				
 		}
+		
+		for (int i  = 0; i < 6; i++){
+			charThree[i] = keyboard.next();
+		}
+		
+		for (int i = 0; i < 35; i++){
+			for (int l = 0; l < 6; l++){
+				if (words[i].charAt(2) == charThree[l].charAt(0)){
+					for (int j = 0; j < 6; j++){
+						if (words[i].charAt(1) == charOne[j].charAt(0)){
+							for (int k = 0; k < 6; k++){
+								if (words[i].charAt(0) == charOne[k].charAt(0)){
+									System.out.println(words[i]);
+								}
+							}
+						}
+					}
+				}	
+			}
+		}
+		
+		for (int i  = 0; i < 6; i++){
+			charFour[i] = keyboard.next();
+		}
+		
+		for (int i = 0; i < 35; i++){
+			for (int m = 0; m < 6; m++){
+				if (words[i].charAt(3) == charFour[m].charAt(0)){
+					for (int l = 0; l < 6; l++){
+						if (words[i].charAt(2) == charThree[l].charAt(0)){
+							for (int j = 0; j < 6; j++){
+								if (words[i].charAt(1) == charOne[j].charAt(0)){
+									for (int k = 0; k < 6; k++){
+										if (words[i].charAt(0) == charOne[k].charAt(0)){
+											System.out.println(words[i]);
+										}
+									}
+								}
+							}
+						}	
+					}
+				}
+			}
+		}
+		
+		for (int i  = 0; i < 6; i++){
+			charFive[i] = keyboard.next();
+		}
+		
+		for (int i = 0; i < 35; i++){
+			for (int n = 0; n < 6; n++){
+				if (words[i].charAt(3) == charFive[n].charAt(0)){
+					for (int m = 0; m < 6; m++){
+						if (words[i].charAt(3) == charFour[m].charAt(0)){
+							for (int l = 0; l < 6; l++){
+								if (words[i].charAt(2) == charThree[l].charAt(0)){
+									for (int j = 0; j < 6; j++){
+										if (words[i].charAt(1) == charOne[j].charAt(0)){
+											for (int k = 0; k < 6; k++){
+												if (words[i].charAt(0) == charOne[k].charAt(0)){
+													System.out.println(words[i]);
+												}
+											}
+										}
+									}
+								}	
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 }
