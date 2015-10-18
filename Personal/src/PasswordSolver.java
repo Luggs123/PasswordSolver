@@ -32,7 +32,7 @@ public class PasswordSolver {
 		
 		for (int i = 0; i < 35; i++){
 			for (int j = 0; j < 6; j++){
-				if (words[i].charAt(1) == charOne[j].charAt(0)){
+				if (words[i].charAt(1) == charTwo[j].charAt(0)){
 					for (int k = 0; k < 6; k++){
 						if (words[i].charAt(0) == charOne[k].charAt(0)){
 							System.out.println(words[i]);
@@ -50,7 +50,7 @@ public class PasswordSolver {
 			for (int l = 0; l < 6; l++){
 				if (words[i].charAt(2) == charThree[l].charAt(0)){
 					for (int j = 0; j < 6; j++){
-						if (words[i].charAt(1) == charOne[j].charAt(0)){
+						if (words[i].charAt(1) == charTwo[j].charAt(0)){
 							for (int k = 0; k < 6; k++){
 								if (words[i].charAt(0) == charOne[k].charAt(0)){
 									System.out.println(words[i]);
@@ -72,7 +72,7 @@ public class PasswordSolver {
 					for (int l = 0; l < 6; l++){
 						if (words[i].charAt(2) == charThree[l].charAt(0)){
 							for (int j = 0; j < 6; j++){
-								if (words[i].charAt(1) == charOne[j].charAt(0)){
+								if (words[i].charAt(1) == charTwo[j].charAt(0)){
 									for (int k = 0; k < 6; k++){
 										if (words[i].charAt(0) == charOne[k].charAt(0)){
 											System.out.println(words[i]);
@@ -98,7 +98,7 @@ public class PasswordSolver {
 							for (int l = 0; l < 6; l++){
 								if (words[i].charAt(2) == charThree[l].charAt(0)){
 									for (int j = 0; j < 6; j++){
-										if (words[i].charAt(1) == charOne[j].charAt(0)){
+										if (words[i].charAt(1) == charTwo[j].charAt(0)){
 											for (int k = 0; k < 6; k++){
 												if (words[i].charAt(0) == charOne[k].charAt(0)){
 													System.out.println(words[i]);
