@@ -92,7 +92,7 @@ public class PasswordSolver {
 		
 		for (int i = 0; i < 35; i++){
 			for (int n = 0; n < 6; n++){
-				if (words[i].charAt(3) == charFive[n].charAt(0)){
+				if (words[i].charAt(4) == charFive[n].charAt(0)){
 					for (int m = 0; m < 6; m++){
 						if (words[i].charAt(3) == charFour[m].charAt(0)){
 							for (int l = 0; l < 6; l++){
@@ -113,5 +113,6 @@ public class PasswordSolver {
 				}
 			}
 		}
+		System.exit(0);
 	}
 }
